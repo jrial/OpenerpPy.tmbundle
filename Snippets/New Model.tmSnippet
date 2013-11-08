@@ -3,21 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>from osv import osv
-from osv import fields
+	<string>from openerp.osv import fields, orm
 
-class ${1:class_name}(osv.osv):
-    '''
-        Model Description
-    '''
+
+class ${1/\./_/g}(orm.Model):
     _name = '${1:class_name}'
     _description = '${2:openerpmodel}'
     
     _columns = {
         '${3:name}':fields.char('${4:data}', size=${5:64}, required=${6:False}, readonly=${7:False}),
     }
-
-${1:class_name}()</string>
+</string>
 	<key>name</key>
 	<string>New Model</string>
 	<key>scope</key>

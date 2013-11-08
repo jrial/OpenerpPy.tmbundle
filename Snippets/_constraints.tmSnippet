@@ -3,10 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def ${1:_check_method}(self, cr, uid, ids): 
+	<string>def ${1:_check_method}(self, cr, uid, ids):
     #TODO : check condition and return boolean accordingly
     return True
-_constraints = [(${1:_check_method}, 'Error: Invalid Message', ['${2:field_name}']), ]</string>
+_constraints = [
+    (${1:_check_method}, 'Error: ${2:message}', ['${3:field_name}']),
+]</string>
 	<key>name</key>
 	<string>_constraints</string>
 	<key>scope</key>

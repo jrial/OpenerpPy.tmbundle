@@ -3,7 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>_sql_constraints = [('${1:name_uniq}', '${2:unique (name)}', '${3:The Name of the OpenERPModel must be unique !}')]</string>
+	<string>_sql_constraints = [
+	('${1:field}_uniq', 'unique(${1:field})', '${2:fieldname} must be unique!'),
+	# ('field_check', 'check(field > 0)', 'The Value of Field must be positive!'),
+]</string>
 	<key>name</key>
 	<string>_sql_constraints</string>
 	<key>scope</key>

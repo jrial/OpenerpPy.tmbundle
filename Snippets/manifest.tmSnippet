@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>content</key>
+    <string># -*- encoding: utf-8 -*-
+##############################################################################
+#
+#    OpenERP, Open Source Management Solution
+#    Copyright (C) 2004-TODAY OpenERP S.A. &lt;http://www.openerp.com&gt;
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+#
+##############################################################################
+
+{
+    'name': '${1:My Module}',
+    'version': '1.0',
+    'category': '${2:Tools}',
+    'description': """
+${3:Description for My Module}
+    """,
+    'author': '${4:OpenERP SA}',
+    'depends': ['${5:base}'],
+    'data': [
+        '${6:views/some_view.xml}',
+    ],
+    'demo': [],
+    'test': [],
+    'installable': ${7:True},
+    'auto_install': ${8:False},
+    'images': [],
+    'css': [],
+}
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+</string>
+    <key>name</key>
+    <string>manifest</string>
+    <key>scope</key>
+    <string>source.python.openerp</string>
+    <key>tabTrigger</key>
+    <string>manifest</string>
+    <key>uuid</key>
+    <string>674F4189-341C-4D5B-9EEB-829A08BD5801</string>
+</dict>
+</plist>

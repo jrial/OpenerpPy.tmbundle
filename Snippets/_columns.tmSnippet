@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>_columns = {
-    ${}
-    }</string>
+    ${1:'name': fields.char('Name'),}
+}</string>
 	<key>name</key>
 	<string>_columns</string>
 	<key>scope</key>

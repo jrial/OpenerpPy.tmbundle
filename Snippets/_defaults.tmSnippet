@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>_defaults = {  
+	<string>_defaults = {
     '${1:date}': lambda *a: time.strftime('%Y-%m-%d'),
-    }</string>
+}</string>
 	<key>name</key>
 	<string>_defaults</string>
 	<key>scope</key>

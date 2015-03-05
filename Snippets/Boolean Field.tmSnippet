@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:name}': fields.boolean('${2:Label}', required=${3:False}),</string>
+	<string>${1:name} = fields.Boolean('${2:Label}', required=${3:False}),</string>
 	<key>name</key>
 	<string>Boolean Field</string>
 	<key>scope</key>

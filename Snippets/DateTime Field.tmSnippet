@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>#TODO : import time required to get currect datetime
-'${1:datetime}': fields.datetime('${2:Datetime}'),</string>
+${1:datetime} = fields.Datetime('${2:Datetime}'),</string>
 	<key>name</key>
 	<string>DateTime Field</string>
 	<key>scope</key>

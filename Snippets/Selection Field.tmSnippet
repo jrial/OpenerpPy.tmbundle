@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:state}': fields.selection([
+	<string>${1:state} = fields.Selection([
     ('draft','Draft'),
     ('done','Done'),
 	], '${3:State}', select=True, readonly=${4:True}),</string>

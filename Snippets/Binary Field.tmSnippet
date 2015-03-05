@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:file}': fields.binary('${2:Label}', filters=${3:None}),</string>
+	<string>${1:file} = fields.Binary('${2:Label}', filters=${3:None}),</string>
 	<key>name</key>
 	<string>Binary Field</string>
 	<key>scope</key>

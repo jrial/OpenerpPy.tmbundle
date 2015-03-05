@@ -6,8 +6,8 @@
     <string># -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-TODAY OpenERP S.A. &lt;http://www.openerp.com&gt;
+#    Odoo, Open Source Management Solution
+#    Copyright (C) 2004-TODAY Odoo S.A. &lt;http://www.openerp.com&gt;
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -27,19 +27,21 @@
 {
     'name': '${1:My Module}',
     'version': '1.0',
-    'category': '${2:Tools}',
+    'category': '${2:Uncategorised}',
     'description': """
 ${3:Description for My Module}
     """,
-    'author': '${4:OpenERP SA}',
-    'depends': ['${5:base}'],
+    'author': '${4:Odoo SA}',
+    'website': '${5:http://www.odoo.com/}',
+    'license': '${6:AGPL-3}',
+    'depends': ['${7:base}'],
     'data': [
-        '${6:views/some_view.xml}',
+        '${8:views/some_view.xml}',
     ],
     'demo': [],
     'test': [],
-    'installable': ${7:True},
-    'auto_install': ${8:False},
+    'installable': ${9:True},
+    'auto_install': ${10:False},
     'images': [],
     'css': [],
 }

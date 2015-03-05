@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>states = {'${1:draft}':[('readonly',${2:False}),</string>
+	<string>states = {'${1:draft}':[('readonly',${2:False})]}</string>
 	<key>name</key>
 	<string>Field States</string>
 	<key>scope</key>

@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>from openerp.osv import fields, orm
+	<string>from openerp.osv import fields, models
 
 
-class ${1/\./_/g}(orm.Model):
+class ${1/\./_/g}(models.Model):
     _name = '${1:class_name}'
     _description = '${2:openerpmodel}'
+    ${3:# }_inherit = '${2:openerpmodel}'
 
-    _columns = {
-        '${3:name}': fields.char('${4:Name}', size=${5:64}, required=${6:True}),
-    }
+    ${4:name} = fields.Char('${5:Name}', size=${6:64}, required=${7:True}),
 </string>
 	<key>name</key>
 	<string>New Model</string>

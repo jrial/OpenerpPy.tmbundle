@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def ${1:method_name}(self, cr, uid, ids, context=None):
+	<string>def ${1:method_name}(self):
     result = None
     #TODO : OpenERP Business Process
     return result</string>

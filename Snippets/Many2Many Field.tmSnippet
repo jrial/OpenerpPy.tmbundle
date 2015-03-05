@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:other_object}_ids': fields.many2many('${2:other_object_name}', '${3:actual_object_name}_${2:other_object_name}_rel', '${4:actual_object}_id', '${1:other_object}_id', '${5:Field Name}'),</string>
+	<string>${1:other_object}_ids = fields.Many2many('${2:other_object_name}', '${3:actual_object_name}_${2:other_object_name}_rel', '${4:actual_object}_id', '${1:other_object}_id', '${5:Field Name}'),</string>
 	<key>name</key>
 	<string>Many2Many Field</string>
 	<key>scope</key>

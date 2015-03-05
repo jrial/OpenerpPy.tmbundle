@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>store={
-    #TODO : define model and function call for store field 
-    '${1:field_name}': (_get_invoice_from_line, None, 50),
+	<string>store=${1:True}'
 }</string>
 	<key>name</key>
 	<string>Store Field Attribute</string>

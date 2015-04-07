@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>from openerp.osv import fields, models
+	<string>from openerp import fields, models
 
 
 class ${1/\./_/g}(models.Model):

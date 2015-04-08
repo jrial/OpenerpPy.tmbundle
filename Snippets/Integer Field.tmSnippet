@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:number} = fields.Integer('${2:Label}'),</string>
+	<string>${1:number} = fields.Integer('${2:Label}')</string>
 	<key>name</key>
 	<string>Integer Field</string>
 	<key>scope</key>

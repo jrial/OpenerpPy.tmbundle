@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:data}_ids = fields.One2many('${2:OpenerpModel}', '${3:field}_id', '${4:Label}', required=${5:False}),</string>
+	<string>${1:data}_ids = fields.One2many('${2:OpenerpModel}', '${3:field}_id', '${4:Label}', required=${5:False})</string>
 	<key>name</key>
 	<string>One2Many Field</string>
 	<key>scope</key>

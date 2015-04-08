@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>#import time required to get currect date
-${1:date} = fields.Date('${2:Date}'),</string>
+${1:date} = fields.Date('${2:Date}')</string>
 	<key>name</key>
 	<string>Date Field</string>
 	<key>scope</key>

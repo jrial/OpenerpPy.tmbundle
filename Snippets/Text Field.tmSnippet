@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:note} = fields.Text('${2:Description}'),</string>
+	<string>${1:note} = fields.Text('${2:Description}')</string>
 	<key>name</key>
 	<string>Text Field</string>
 	<key>scope</key>

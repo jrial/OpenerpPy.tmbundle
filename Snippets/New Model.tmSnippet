@@ -8,8 +8,8 @@
 
 class ${1/\./_/g}(models.Model):
     _name = '${1:class_name}'
-    _description = '${2:openerpmodel}'
-    ${3:# }_inherit = '${2:openerpmodel}'
+    _description = '${2:Model Description}'
+    ${3:# }_inherit = '${1:openerpmodel}'
 
     ${4:name} = fields.Char('${5:Name}', size=${6:64}, required=${7:True})
 </string>

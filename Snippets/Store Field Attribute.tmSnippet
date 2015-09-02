@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>store=${1:True}'
-}</string>
+	<string>store=${1:True}</string>
 	<key>name</key>
 	<string>Store Field Attribute</string>
 	<key>scope</key>

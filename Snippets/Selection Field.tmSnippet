@@ -6,7 +6,7 @@
 	<string>${1:state} = fields.Selection([
     ('${3:draft}','${3/^([a-z])/\u$1/}'),
     ('${4:done}','${4/^([a-z])/\u$1/}'),
-	], '${5:State}', select=True)</string>
+], '${5:State}', select=True)</string>
 	<key>name</key>
 	<string>Selection Field</string>
 	<key>scope</key>

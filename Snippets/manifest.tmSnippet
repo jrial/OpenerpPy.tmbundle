@@ -7,7 +7,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-TODAY OpenERP S.A. &lt;http://www.openerp.com&gt;
+#    Copyright (C) ${1:2015} ${2:OpenERP S.A.} &lt;${3:http://www.openerp.com}&gt;
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -25,24 +25,25 @@
 ##############################################################################
 
 {
-    'name': '${1:My Module}',
-    'version': '1.0',
-    'category': '${2:Tools}',
+    'name': '${4:My Module}',
+    'version': '${5:7.0}.${6:1.0.0}',
+    'category': '${7:Tools}',
     'description': """
-${3:Description for My Module}
+${8:Description for My Module}
     """,
-    'author': '${4:OpenERP SA}',
-    'depends': ['${5:base}'],
+    'author': '${9:OpenERP S.A.}',
+    'depends': ['${10:base}'],
     'data': [
-        '${6:views/some_view.xml}',
+        '${11:views/some_view.xml}',
     ],
     'demo': [],
     'test': [],
-    'installable': ${7:True},
-    'auto_install': ${8:False},
+    'installable': ${12:True},
+    'auto_install': ${13:False},
     'images': [],
     'css': [],
 }
+
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 </string>
     <key>name</key>

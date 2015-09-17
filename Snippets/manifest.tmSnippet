@@ -6,8 +6,8 @@
     <string># -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Odoo, Open Source Management Solution
-#    Copyright (C) 2004-TODAY Odoo S.A. &lt;http://www.openerp.com&gt;
+#    OpenERP, Open Source Management Solution
+#    Copyright (C) ${1:2015} ${2:Odoo S.A.} &lt;${3:http://www.openerp.com}&gt;
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -25,23 +25,23 @@
 ##############################################################################
 
 {
-    'name': '${1:My Module}',
-    'version': '1.0',
-    'category': '${2:Uncategorised}',
+    'name': '${4:My Module}',
+    'version': '${5:7.0}.${6:1.0.0}',
+    'category': '${7:Uncategorised}',
     'description': """
-${3:Description for My Module}
+${8:Description for My Module}
     """,
-    'author': '${4:Odoo SA}',
-    'website': '${5:http://www.odoo.com/}',
-    'license': '${6:AGPL-3}',
-    'depends': ['${7:base}'],
+    'author': '${9:Odoo S.A.}',
+    'website': '${10:http://www.odoo.com/}',
+    'license': '${11:AGPL-3}',
+    'depends': ['${12:base}'],
     'data': [
-        '${8:views/some_view.xml}',
+        '${13:views/some_view.xml}',
     ],
     'demo': [],
     'test': [],
-    'installable': ${9:True},
-    'auto_install': ${10:False},
+    'installable': ${14:True},
+    'auto_install': ${15:False},
     'images': [],
     'css': [],
 }
